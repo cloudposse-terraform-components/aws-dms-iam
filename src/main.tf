@@ -11,7 +11,7 @@
 
 module "dms_iam" {
   source  = "cloudposse/dms/aws//modules/dms-iam"
-  version = "0.1.1"
+  version = "0.2.0"
 
   context = module.this.context
 }
