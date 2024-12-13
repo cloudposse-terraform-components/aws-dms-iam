@@ -5,7 +5,7 @@ tags:
   - provider/aws
 ---
 
-# Component: `dms`
+# Component: `dms-iam`
 
 This component provisions IAM roles required for DMS.
 
