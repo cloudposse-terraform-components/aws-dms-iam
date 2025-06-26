@@ -9,7 +9,7 @@ terraform {
       # https://github.com/hashicorp/terraform-provider-aws/pull/24047
       # https://github.com/hashicorp/terraform-provider-aws/pull/23692
       # https://github.com/hashicorp/terraform-provider-aws/pull/13476
-      version = ">= 4.26.0, < 6.0.0"
+      version = "< 7.0.0"
     }
   }
 }
