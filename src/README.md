@@ -8,7 +8,6 @@ tags:
 # Component: `dms-iam`
 
 This component provisions IAM roles required for DMS.
-
 ## Usage
 
 **Stack Level**: Regional
@@ -31,7 +30,10 @@ components:
 ```
 
 <!-- prettier-ignore-start -->
-<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+<!-- prettier-ignore-end -->
+
+
+<!-- markdownlint-disable -->
 ## Requirements
 
 | Name | Version |
@@ -86,12 +88,17 @@ No resources.
 | <a name="output_dms_cloudwatch_logs_role_arn"></a> [dms\_cloudwatch\_logs\_role\_arn](#output\_dms\_cloudwatch\_logs\_role\_arn) | DMS CloudWatch Logs role ARN |
 | <a name="output_dms_redshift_s3_role_arn"></a> [dms\_redshift\_s3\_role\_arn](#output\_dms\_redshift\_s3\_role\_arn) | DMS Redshift S3 role ARN |
 | <a name="output_dms_vpc_management_role_arn"></a> [dms\_vpc\_management\_role\_arn](#output\_dms\_vpc\_management\_role\_arn) | DMS VPC management role ARN |
-<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
-<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+
 
 ## References
 
-- [cloudposse/terraform-aws-components](https://github.com/cloudposse/terraform-aws-components/tree/main/modules/dms/modules/dms-iam) -
-  Cloud Posse's upstream component
+
+- [cloudposse-terraform-components](https://github.com/orgs/cloudposse-terraform-components/repositories) - Cloud Posse's upstream component
+
+
+
 
 [<img src="https://cloudposse.com/logo-300x69.svg" height="32" align="right"/>](https://cpco.io/homepage?utm_source=github&utm_medium=readme&utm_campaign=cloudposse-terraform-components/aws-dms-iam&utm_content=)
+
